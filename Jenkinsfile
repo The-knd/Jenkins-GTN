@@ -1,6 +1,6 @@
 pipeline{
     agent {
-            label 'test-pipeline 15-08'
+            label 'nombre de prueba'
     }
     parameters{
         string(name: 'name_container', defaultValue: 'sitio_web', description: 'Nombre del container')
